@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "z8obQesOiFAaqGDZYCkmC0c7sx7ysyrB57z8Xrcl77eAUcyfA+DEXJ8+QVgYspIM92Fp3maLxdlTH9ICBQB/vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\ExcelHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Harut\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Harut\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
