@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\ExcelHelper.csproj": {}
+    "C:\\Users\\Lenovo\\Source\\Repos\\ExcelHelper\\ExcelHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\ExcelHelper.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\ExcelHelper\\ExcelHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\ExcelHelper.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ExcelHelper\\ExcelHelper.csproj",
         "projectName": "ExcelHelper",
-        "projectPath": "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\ExcelHelper.csproj",
-        "packagesPath": "C:\\Users\\Harut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Harut\\source\\repos\\ExcelHelper\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ExcelHelper\\ExcelHelper.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ExcelHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Harut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\ProgramData\\NuGet": {},
-          "C:\\ProgramData\\NuGet\\Config\\VisualStudio": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/guidetoiceland/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -44,9 +40,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.1, )"
             }
           },
           "imports": [
