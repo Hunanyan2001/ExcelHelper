@@ -1,7 +1,10 @@
 ﻿using ExcelHelper.ViewModel;
 
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 
 namespace ExcelHelper.View
 {
@@ -16,11 +19,12 @@ namespace ExcelHelper.View
             InitializeComponent();
             ViewModel = viewModel;
             DataContext = ViewModel;
-            Loaded += MainView_Loaded;
+            Loaded += ExcelView_Loaded;
         }
-        private async void MainView_Loaded(object sender, RoutedEventArgs e)
+
+        private void ExcelView_Loaded(object sender, RoutedEventArgs e)
         {
-            await ViewModel.Loaded().ConfigureAwait(false);
+            ViewModel.ExcelDataGrid = ExcelDataGrid;
         }
     }
 }

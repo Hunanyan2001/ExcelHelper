@@ -1,0 +1,7 @@
+C:\Users\Harut\OneDrive - Milies\Desktop\ExcelHelper.exe
+C:\Users\Harut\OneDrive - Milies\Desktop\ExcelHelper.dll
+C:\Users\Harut\OneDrive - Milies\Desktop\ExcelHelper.deps.json
+C:\Users\Harut\OneDrive - Milies\Desktop\ExcelHelper.runtimeconfig.json
+C:\Users\Harut\OneDrive - Milies\Desktop\ExcelHelper.pdb
+C:\Users\Harut\OneDrive - Milies\Desktop\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Harut\OneDrive - Milies\Desktop\Microsoft.Extensions.DependencyInjection.Abstractions.dll

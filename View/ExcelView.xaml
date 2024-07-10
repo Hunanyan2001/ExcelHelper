@@ -29,15 +29,15 @@
         <!-- Actions Section -->
         <GroupBox Header="Actions" Grid.Row="0" Grid.Column="1" Margin="5" Padding="10">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Export" Command="{Binding Export}"/>
-                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Import" Command="{Binding Import}"/>
-                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Delete" Command="{Binding Delete}"/>
+                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Export" Command="{Binding ExportCommand}"/>
+                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Import" Command="{Binding ImportCommand}"/>
+                <Button Background="DarkGray" Height="30" Width="100" Margin="5" Content="Delete" Command="{Binding DeleteCommand}"/>
             </StackPanel>
         </GroupBox>
 
         <!-- DataGrid Section -->
         <GroupBox Header="Data" Grid.Row="1" Grid.ColumnSpan="2" Margin="5" Padding="10">
-            <DataGrid x:Name="ExcelDataGrid" AutoGenerateColumns="True" Margin="5"/>
+            <DataGrid x:Name="ExcelDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding DynamicData}" CanUserAddRows="False" Margin="5"/>
         </GroupBox>
     </Grid>
 </Page>
