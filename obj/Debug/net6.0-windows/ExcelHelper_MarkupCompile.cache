@@ -4,16 +4,20 @@
 winexe
 C#
 .cs
-C:\Users\Harut\source\repos\ExcelHelper\obj\Debug\net6.0-windows\
+C:\Users\Lenovo\Source\Repos\ExcelHelper\obj\Debug\net6.0-windows\
 ExcelHelper
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Harut\source\repos\ExcelHelper\App.xaml
+C:\Users\Lenovo\Source\Repos\ExcelHelper\App.xaml
 2-992944614
 
 14-505891999
+<<<<<<< HEAD
 215-156484148
+=======
+2141754656847
+>>>>>>> main
 MainWindow.xaml;View\ExcelView.xaml;
 
 False
